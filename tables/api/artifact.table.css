@@ -1,0 +1,45 @@
+.release {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  line-height: 35px;
+  border-collapse: collapse;
+  border: double;
+  font-size: 24px !important;
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-weight: 700 !important;
+}
+
+.release td {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.task {
+  width: 250px;
+  border-right: double;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.version {
+  border-bottom: double;
+  border-right: double;
+}
+
+.artifact {
+  width: 150px;
+  border-top: double;
+  border-bottom: double;
+  border-left: double;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.match {
+  background-color: lightgreen;
+}
+
+.divergent {
+  background-color: lightcoral;
+}

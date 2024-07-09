@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Table 07</title>
+    <link rel="stylesheet" href="release.table.css" />
+  </head>
+  <body>
+    <table class="release">
+      <tr>
+        <th colspan="2">Scenario - Test Deploy Success</th>
+        <th class="artifact">UI</th>
+        <th class="artifact">API</th>
+        <th class="artifact">DB</th>
+        <th class="artifact app">APP</th>
+      </tr>
+      <tr>
+        <td rowspan="7" class="job job-success">Build</td>
+        <td class="task">Package Scan</td>
+        <td><img src="pass.svg" alt="Pass" /></td>
+        <td><img src="pass.svg" alt="Pass" /></td>
+        <td><img src="pass.svg" alt="Pass" /></td>
+        <td class="app"><img src="pass.svg" alt="Pass" /></td>
+      </tr>
+      <tr>
+        <td class="task">Static Analysis</td>
+        <td><img src="pass.svg" alt="Pass" /></td>
+        <td><img src="pass.svg" alt="Pass" /></td>
+        <td><img src="pass.svg" alt="Pass" /></td>
+        <td class="app"><img src="pass.svg" alt="Pass" /></td>
+      </tr>
+      <tr>
+        <td class="task">Style Analysis</td>
+        <td><img src="pass.svg" alt="Pass" /></td>
+        <td><img src="pass.svg" alt="Pass" /></td>
+        <td><img src="pass.svg" alt="Pass" /></td>
+        <td class="app"><img src="pass.svg" alt="Pass" /></td>
+      </tr>
+      <tr>
+        <td class="task">Build</td>
+        <td><img src="pass.svg" alt="Pass" /></td>
+        <td><img src="pass.svg" alt="Pass" /></td>
+        <td><img src="pass.svg" alt="Pass" /></td>
+        <td class="app"><img src="pass.svg" alt="Pass" /></td>
+      </tr>
+      <tr>
+        <td class="task">Unit Tests</td>
+        <td><img src="pass.svg" alt="Pass" /></td>
+        <td><img src="pass.svg" alt="Pass" /></td>
+        <td><img src="pass.svg" alt="Pass" /></td>
+        <td class="app"><img src="pass.svg" alt="Pass" /></td>
+      </tr>
+      <tr>
+        <td class="task">Container Scan</td>
+        <td><img src="pass.svg" alt="Pass" /></td>
+        <td><img src="pass.svg" alt="Pass" /></td>
+        <td><img src="pass.svg" alt="Pass" /></td>
+        <td class="app"><img src="pass.svg" alt="Pass" /></td>
+      </tr>
+      <tr>
+        <td class="task job-success">Publish Test Artifacts</td>
+        <td><img src="pass.svg" alt="Pass" /></td>
+        <td><img src="pass.svg" alt="Pass" /></td>
+        <td><img src="pass.svg" alt="Pass" /></td>
+        <td class="app"><img src="pass.svg" alt="Pass" /></td>
+      </tr>
+      <tr>
+        <td rowspan="3" class="job job-success">Test<br />Release</td>
+        <td class="job-container-top task">Technical Approval</td>
+        <td class="job-container-top"><img src="pass.svg" alt="Pass" /></td>
+        <td class="job-container-top"><img src="pass.svg" alt="Pass" /></td>
+        <td class="job-container-top"><img src="pass.svg" alt="Pass" /></td>
+        <td class="job-container-top app"><img src="pass.svg" alt="Pass" /></td>
+      </tr>
+      <tr>
+        <td class="task">Business Approval</td>
+        <td><img src="pass.svg" alt="Pass" /></td>
+        <td><img src="pass.svg" alt="Pass" /></td>
+        <td><img src="pass.svg" alt="Pass" /></td>
+        <td class="app"><img src="pass.svg" alt="Pass" /></td>
+      </tr>
+      <tr>
+        <td class="job-container-bottom job-success task">Deploy to Test</td>
+        <td class="job-container-bottom"><img src="pass.svg" alt="Pass" /></td>
+        <td class="job-container-bottom"><img src="pass.svg" alt="Pass" /></td>
+        <td class="job-container-bottom"><img src="pass.svg" alt="Pass" /></td>
+        <td class="job-container-bottom app">
+          <img src="pass.svg" alt="Pass" />
+        </td>
+      </tr>
+      <tr>
+        <td rowspan="5" class="job job-not-ran">Validate</td>
+        <td class="task">Integration Tests</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td class="app">-</td>
+      </tr>
+      <tr>
+        <td class="task">User Interface Tests</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td class="app">-</td>
+      </tr>
+      <tr>
+        <td class="task">ADA Compliance Scan</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td class="app">-</td>
+      </tr>
+      <tr>
+        <td class="task">Web Application Security Tests</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td class="app">-</td>
+      </tr>
+      <tr>
+        <td class="task job-not-ran">Publish Production Artifacts</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td class="app">-</td>
+      </tr>
+      <tr>
+        <td rowspan="3" class="job job-not-ran">Prod<br />Release</td>
+        <td class="job-container-top task">Technical Approval</td>
+        <td class="job-container-top">-</td>
+        <td class="job-container-top">-</td>
+        <td class="job-container-top">-</td>
+        <td class="job-container-top app">-</td>
+      </tr>
+      <tr>
+        <td class="task">Business Approval</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td class="app">-</td>
+      </tr>
+      <tr>
+        <td class="job-container-bottom job-not-ran task">
+          Deploy to Production
+        </td>
+        <td class="job-container-bottom">-</td>
+        <td class="job-container-bottom">-</td>
+        <td class="job-container-bottom">-</td>
+        <td class="job-container-bottom app">-</td>
+      </tr>
+    </table>
+  </body>
+</html>

@@ -1,0 +1,13 @@
+{
+  "editor.trimAutoWhitespace": true,
+  "editor.formatOnSave": true,
+  "files.autoSave": "onFocusChange",
+  "editor.indentSize": "tabSize",
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.autoIndent": "full",
+  "editor.lineNumbers": "on",
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.autopep8"
+  }
+}

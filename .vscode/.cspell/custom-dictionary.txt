@@ -1,0 +1,10 @@
+# Custom Dictionary Words
+dplyr
+gridlines
+plotly
+showgrid
+showticklabels
+ticktext
+xaxis
+yaxis
+zeroline
